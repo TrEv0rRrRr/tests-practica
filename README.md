@@ -49,25 +49,25 @@ npm i -D jsdom
 ### Para React
 
 ```bash
-pnpm add -D @testing-library/react @testing-library/jest-dom
+pnpm add -D jsdom @testing-library/react @testing-library/jest-dom
 ```
 
 o si prefieres npm
 
 ```bash
-npm add -D @testing-library/react @testing-library/jest-dom
+npm i -D jsdom @testing-library/react @testing-library/jest-dom
 ```
 
 ### Para Vue
 
 ```bash
-pnpm add -D @testing-library/vue @testing-library/jest-dom
+pnpm add -D jsdom @testing-library/vue @testing-library/jest-dom
 ```
 
 o si prefieres npm
 
 ```bash
-npm add -D @testing-library/vue @testing-library/jest-dom
+npm i -D jsdom @testing-library/vue @testing-library/jest-dom
 ```
 
 ## Paso 5: Configura correctamente los package.json, tsconfig.json, vitest.config.ts y de ser necesario para el UI, el setupfile

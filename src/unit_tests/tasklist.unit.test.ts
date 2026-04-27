@@ -5,7 +5,7 @@ afterEach(() => {
   vi.restoreAllMocks();
 });
 
-describe("Testing the Vue UI", () => {
+describe("Testing the TaskList UI", () => {
   test("should render tasks from API", async () => {
     // Arrange
     vi.spyOn(global, "fetch").mockResolvedValue({
